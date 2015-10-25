@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="gestion_commerciale_dbDataSet" targetNamespace="http://tempuri.org/gestion_commerciale_dbDataSet.xsd" xmlns:mstns="http://tempuri.org/gestion_commerciale_dbDataSet.xsd" xmlns="http://tempuri.org/gestion_commerciale_dbDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="gestion_commerciale_dbConnectionString" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="gestion_commerciale_dbConnectionString (Settings)" PropertyReference="ApplicationSettings.ApplicationGestionCommerciale.Properties.Settings.GlobalReference.Default.gestion_commerciale_dbConnectionString" Provider="Devart.Data.MySql" />
+        </Connections>
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="gestion_commerciale_dbDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="gestion_commerciale_dbDataSet" msprop:Generator_UserDSName="gestion_commerciale_dbDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded" />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
